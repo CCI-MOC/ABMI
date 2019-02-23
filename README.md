@@ -10,9 +10,9 @@ To enable non-intrusive introspection of a bare-metal instances` software stack.
 ![picture alt](https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-implementation.jpg "Title is optional")
 
 ### Major Components
-1. __M2 Services:__ Our system is based on M2 and leverages the services provided by M2 such as node provisioning and snap creation. (http://github.com/CCI-MOC/ims)
-2. __Ceph:__ We use Ceph as our distributed image database. It stores all the golden images as well as snapshots of those images. (https://ceph.com/)
-3. __Crawler:__ We leveraged the Agentless System Crawler from IBM that can generate frames by running on a mounted image. (https://github.com/cloudviz/agentless-system-crawler)
+1. __M2 Services:__ Our system is based on M2 and leverages the services provided by M2 such as node provisioning and snap creation.
+2. __Ceph:__ We use Ceph as our distributed image database. It stores all the golden images as well as snapshots of those images.
+3. __Crawler:__ We leveraged the Agentless System Crawler from IBM that can generate frames by running on a mounted image.
 4. __Vulnerability Detection Module:__ We built a Vulnerability Detection module that takes the generated frame from Agentless System Crawler as an input and creates a vulnerability report.
 
 ### Workflow:
