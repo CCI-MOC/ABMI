@@ -4,7 +4,10 @@
 To enable non-intrusive introspection of a bare-metal instances` software stack.
 
 #### Architecture
-![picture alt](https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-new.pdf "Title is optional")
+[embed]https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-new.pdf[/embed]
+
+#### Prototype Implementation
+[embed]https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-implementation.pdf[/embed]
 
 ### Major Components
 1. __M2 Services:__ Our system is based on M2 and leverages the services provided by M2 such as node provisioning and snap creation. (http://github.com/CCI-MOC/ims)
