@@ -27,13 +27,13 @@ To enable non-intrusive introspection of a bare-metal instances` software stack.
 * The module compares the packages from the Frame to the database and generates a Vulnerability Report that contains the information about all the vulnerable packages within the system along with the severity of security threats for each package. It also contains information about the OS and the total number of packages within the system.
 * This vulnerability report is then sent back to the user through either CLI.
 
-### Setup and Deployment
-See deploy.txt.
-
 #### Requirements
-* HIL: Hardware Isolation Layer (https://github.com/CCI-MOC/hil/tree/v0.2)
-* Ceph cluster (for image management)
-* A pre-computed SQLitedatabase with solftware vulnerabilities with known vulnerabilities (sample script to populate such a database m2-modified/ims/common/populateDB.py).
+* HIL: Hardware Isolation Layer.
+* Ceph cluster (for image management).
+* A pre-computed SQLitedatabase with solftware vulnerabilities with known vulnerabilities.
+
+### Setup and Deployment
+See https://github.com/CCI-MOC/ABMI/blob/master/deploy.txt.
 
 #### Related Links
 * https://github.com/CCI-MOC/m2
