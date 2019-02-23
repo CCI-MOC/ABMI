@@ -33,5 +33,10 @@ See deploy.txt.
 #### Requirements
 * HIL: Hardware Isolation Layer (https://github.com/CCI-MOC/hil/tree/v0.2)
 * Ceph cluster (for image management)
-* A pre-computed SQLitedatabase with solftware vulnerabilities with known vulnerabilities (see ).
+* A pre-computed SQLitedatabase with solftware vulnerabilities with known vulnerabilities (sample script to populate such a database m2-modified/ims/common/populateDB.py).
 
+#### Related Links
+* https://github.com/CCI-MOC/m2
+* https://github.com/CCI-MOC/hil
+* https://github.com/cloudviz/agentless-system-crawler
+* https://github.com/ceph/ceph
