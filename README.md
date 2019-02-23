@@ -6,9 +6,6 @@ To enable non-intrusive introspection of a bare-metal instances` software stack.
 #### Architecture
 ![picture alt](https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-arch.jpg "Title is optional")
 
-#### Prototype Implementation
-![picture alt](https://github.com/CCI-MOC/ABMI/blob/master/figures/abmi-implementation.jpg "Title is optional")
-
 #### Major Components
 1. __M2 Services:__ Our system is based on M2 and leverages the services provided by M2 such as node provisioning and snap creation.
 2. __Ceph:__ We use Ceph as our distributed image database. It stores all the golden images as well as snapshots of those images.
