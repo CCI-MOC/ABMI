@@ -1,0 +1,4 @@
+1. Install HIL (https://github.com/CCI-MOC/hil/blob/v0.2/docs/INSTALL.rst)
+2. Setup Ceph Cluster - (http://docs.ceph.com/docs/mimic/start/)
+3. Populate SQLite database from the USN repository - (sample code to generate SQLite database m2-modified/ims/common/populateDB.py).
+4. Deploy modified Malleable Metal as a Service (M2) with introspection capabilities - (m2-modified/install/production/README.md)
